@@ -1,0 +1,18 @@
+conda install -c conda-forge jupyterlab -y
+conda install -c anaconda pandas -y
+conda install -c anaconda numpy -y
+conda install -c conda-forge emoji -y 
+conda install -c conda-forge textblob -y
+conda install -c conda-forge bs4 -y
+conda install -c anaconda scikit-learn -y
+conda install -c conda-forge spacy -y
+conda install -c conda-forge wordcloud -y
+conda install -c anaconda nltk -y
+conda install -c conda-forge matplotlib -y
+conda install -c anaconda openpyxl -y
+conda install -c anaconda lxml -y
+conda install -c conda-forge ipywidgets -y
+
+python -m textblob.download_corpora
+python -m spacy download el_core_news_sm
+pip install emoji --upgrade
