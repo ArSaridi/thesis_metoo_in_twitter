@@ -3,5 +3,7 @@
 
 In order to run the notebook run the following commands from a windows powershell:
 
-* .\create_env.ps1
-* jupyter notebook
+```
+.\create_env.ps1
+jupyter notebook
+```
